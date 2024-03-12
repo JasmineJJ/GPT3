@@ -1,0 +1,128 @@
+.footer_container{
+
+    padding: 50px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    
+    flex-direction: column;
+    font-family: var(--font-family);
+    background: rgb(34,90,195);
+    background: linear-gradient(0deg, rgba(63, 47, 185, 0.145) 0%, #030d1988 100%);
+ }
+ .footer_container h1{
+    width: 821px;
+   height: 150px;
+
+
+
+    font-family: Manrope;
+ font-size: 62px;
+font-weight: 800;
+line-height: 75px;
+letter-spacing: -0.04em;
+text-align: center;
+
+ }
+ .footer_container button{
+    width: 218px;
+height: 65px;
+background: none;
+margin-top: 100px;
+border: 1px solid rgba(240, 248, 255, 0.119);
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+border-radius: 5px;
+color: aliceblue;
+font-weight: 600;
+font-family: var(--font-family);
+cursor: pointer;
+
+ 
+ }
+ .footer_sectionUp{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+ 
+ }
+ .footer_sectionDown{
+    display: flex;
+    margin: 0;
+    padding: 50px;
+  
+    color: azure;
+ }
+ .footer_sectionDown1{
+    width: min-content;
+    flex: 0.60;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+
+ }
+ .footer_sectionDown1 img {
+    width: 118px;
+    height: 30px;
+   
+    
+ }
+ .footer_sectionDown2{
+    flex: 1.2;
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ }
+
+ @media  screen and (max-width: 794px) {
+    .footer_sectionUp h1{
+        width: auto;
+        height: auto;
+        font-size: 50px;
+    }
+    
+}
+@media  screen and (max-width: 767px){
+    .footer_sectionUp{
+        align-items: center;
+
+    }
+    .footer_sectionDown{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer_sectionDown1{
+        align-items: center;
+        padding: 50px;
+        line-height: 20px;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    .footer_sectionDown1 img {
+        height: 200px;
+    }
+
+}
+@media screen and (max-width:593px){
+    .footer_sectionDown2{
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+
+    }
+    .footer_sectionDown{
+        padding: 0;
+        margin: 0;
+    }
+    .footer_sectionUp{
+        padding: 0;
+        margin: 0;
+    }
+  
+}

@@ -1,0 +1,30 @@
+.footer_links_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: min-content;
+}
+
+.footer_links_texts_container{
+    padding: 50px;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+line-height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.footer_links_title h3{
+   
+    text-align: center;
+}
+
+@media  screen and (max-width: 794px) {
+    .footer_links_title h3{
+        font-size: 20px;
+    }
+    
+}
+

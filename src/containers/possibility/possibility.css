@@ -1,0 +1,130 @@
+.gpt3__possibility-image img {
+    width: 100%;
+  }
+
+.gpt3__possibility, .section__padding{
+display: flex;
+font-family: var(--font-family);
+padding: 50px;
+
+}
+.gpt3__possibility-content{
+    padding-left: 20px;
+    padding-top: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.gpt3__possibility-content h6{
+    color: #71E5FF;
+ 
+    font-family: Manrope;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.gpt3__possibility-content h1{
+    font-family: Manrope;
+font-size: 34px;
+font-weight: 800;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.gpt3__possibility-content p{
+    font-family: Manrope;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color:#81AFDD;
+width: 400px;
+
+
+}
+.gpt3__possibility-content h4{
+    font-family: Manrope;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;color: #FF8A71;
+margin-top: 10px;
+
+
+
+}
+.gpt3__possibility-image{
+    width: fit-content;
+    padding: 0;
+    
+}
+
+@media screen and (max-width: 1180px) {
+    .gpt3__possibility {
+        flex-direction: column;
+    }
+
+    .gpt3__possibility-image {
+        margin: 1rem 0;
+    }
+
+    .gpt3__possibility-image img {
+        width :100%;
+       
+    }
+
+    .gpt3__possibility-content {
+        padding-left: 0%;
+        
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+    .gpt3__possibility-content h1 {
+        width: 700px;
+     
+        padding: 70px;
+        padding-left: 0;
+        
+    }
+    .gpt3__possibility-content p{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .gpt3__possibility-image img {
+        width: 100%;
+       
+    }
+    .gpt3__possibility-content p {
+        width: 100%;
+    }
+    .gpt3__possibility-content{
+        padding-top: 10px;
+        padding-left: 0;
+    }
+    .gpt3__possibility-content h1{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1245px){
+    .gpt3__possibility, .section__padding{
+        margin-right: 50px;
+        width: 100%;
+    }
+    .gpt3__possibility-content{
+        padding-left: 20%;
+        margin-left: 0%;
+        
+        display: flex;
+        flex-direction: column;
+        width: 100%;}
+        .gpt3__possibility-image img {
+            width: 120%;
+          }
+}
